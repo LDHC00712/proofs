@@ -1,4 +1,4 @@
-const { createCanvas, loadImage } = require('canvas');
+const { createCanvas, loadImage } = require('@napi-rs/canvas');
 
 module.exports = async (req, res) => {
     const { avatar, username, start, end } = req.query;
